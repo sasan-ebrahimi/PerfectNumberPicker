@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="space1">2sp</dimen>
+    <dimen name="space2">4sp</dimen>
+    <dimen name="space3">8sp</dimen>
+    <dimen name="space4">12sp</dimen>
+    <dimen name="space5">16sp</dimen>
+    <dimen name="space6">20sp</dimen>
+    <dimen name="space7">24sp</dimen>
+
+
+    <dimen name="font_size1">8sp</dimen>
+    <dimen name="font_size2">10sp</dimen>
+    <dimen name="font_size3">12sp</dimen>
+    <dimen name="font_size4">14sp</dimen>
+    <dimen name="font_size5">16sp</dimen>
+    <dimen name="font_size6">18sp</dimen>
+    <dimen name="font_size7">20sp</dimen>
+    <dimen name="font_size8">22sp</dimen>
+    <dimen name="font_size9">24sp</dimen>
+    <dimen name="font_size10">26sp</dimen>
+
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sasanebrahimi.perfectnumberpickerdemo.SampleActivity">
+
+    <com.sasanebrahimi.perfectnumberpicker.PerfectNumberPicker
+        android:id="@+id/npMaxOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="@dimen/space4"
+        android:gravity="center"
+        app:se_pnp_max_value="9"
+        app:se_pnp_min_value="-8"
+        app:se_pnp_minus_color="#00ff00"
+        app:se_pnp_plus_color="#00dd77"
+        app:se_pnp_step="2"
+        app:se_pnp_textSize="26dp"
+        app:se_pnp_text_color="#000"
+        app:se_pnp_value="-2">
+
+    </com.sasanebrahimi.perfectnumberpicker.PerfectNumberPicker>
+
+    <com.sasanebrahimi.perfectnumberpicker.PerfectNumberPicker
+        android:id="@+id/npMaxOrde2r"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="@dimen/space4"
+
+        android:gravity="center">
+
+    </com.sasanebrahimi.perfectnumberpicker.PerfectNumberPicker>
+
+    <com.sasanebrahimi.perfectnumberpicker.PerfectNumberPicker
+        android:id="@+id/npMaxOrde3r"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="@dimen/space4"
+        android:gravity="center"
+
+        app:se_pnp_textSize="14dp">
+
+    </com.sasanebrahimi.perfectnumberpicker.PerfectNumberPicker>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:visibility="gone"
+        android:text="sd"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Fully Customizable"
+        android:textColor="#000"
+        android:padding="@dimen/space2"
+        android:background="#c4c4c4"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="left"
+        android:textColor="#0041ab"
+        android:background="#dedede"
+        android:textSize="@dimen/font_size7"
+        android:padding="@dimen/space4"
+        android:text="Text Size\nText Color\nPlus Button Color\nMinus Button Color\nMinimum Value\nMaximum Value\nDefault Value\nStep"
+
+        />
+
+
+
+
+</LinearLayout>

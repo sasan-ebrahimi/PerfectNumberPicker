@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <declare-styleable name="PerfectNumberPicker">
+        <attr name="se_pnp_value" format="integer" />
+        <attr name="se_pnp_min_value" format="integer" />
+        <attr name="se_pnp_max_value" format="integer" />
+        <attr name="se_pnp_step" format="integer" />
+        <attr name="se_pnp_text_color" format="color" />
+        <attr name="se_pnp_plus_color" format="color" />
+        <attr name="se_pnp_minus_color" format="color" />
+        <attr name="se_pnp_textSize" format="dimension"></attr>
+
+    </declare-styleable>
+
+</resources>
