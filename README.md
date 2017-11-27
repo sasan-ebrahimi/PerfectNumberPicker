@@ -57,15 +57,15 @@ Custom Attributes
 
 ## Attributes
 
-|attribute name|attribute description|
+|attribute name|attribute description|default value|
 |:-:|:-:|:-:|
 |se_pdp_day|The selected day of datepicker|The selected day of datepicker|
-|se_pdp_month|The selected month of datepicker||
-|se_pdp_year|The selected year of datepicker||
-|se_pdp_divider_color|Color of divider line between row of each column||
-|se_pdp_text_color|Color of datepicker texts||
-|se_pdp_max_year|Maximum value for year||
-|se_pdp_min_year|Minimum value for year||
+|se_pdp_month|The selected month of datepicker|wewr|
+|se_pdp_year|The selected year of datepicker|werw|
+|se_pdp_divider_color|Color of divider line between row of each column|sefwe|
+|se_pdp_text_color|Color of datepicker texts|wewef|
+|se_pdp_max_year|Maximum value for year|fssadfsa|
+|se_pdp_min_year|Minimum value for year|afasasd|
 
 ## Methods
 
