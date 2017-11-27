@@ -59,19 +59,18 @@ Custom Attributes
 
 |attribute name|attribute description|default value|
 |:-:|:-:|:-:|
-|se_pdp_day|The selected day of datepicker|The selected day of datepicker|
-|se_pdp_month|The selected month of datepicker|wewr|
-|se_pdp_year|The selected year of datepicker|werw|
-|se_pdp_divider_color|Color of divider line between row of each column|sefwe|
-|se_pdp_text_color|Color of datepicker texts|wewef|
-|se_pdp_max_year|Maximum value for year|fssadfsa|
-|se_pdp_min_year|Minimum value for year|afasasd|
+|se_pnp_max_value|Maximum value for the numberpicker|100|
+|se_pnp_min_value|Minimum value for the numberpicker|0|
+|se_pnp_value|The selected value of datepicker|10|
+|se_pnp_step|step of increase and decrease for numberpicker value|1|
+|se_pnp_textSize|number, plus and minus button text size|19dp|
+|se_pnp_text_color|Color of value text|#737373|
+|se_pnp_plus_color|Color of plus button text|#2196f3|
+|se_pnp_minus_color|Color of minus button text|#d81b60|
+
 
 ## Methods
 
 |Method name|Method description|
 |:-:|:-:|
-|getDateString(String seperator)|String - Returns complete date in string with given seperator like 1397-01-24 or 1397/01/24|
-|getDay()|int - Returns selected day of datepicker in int|
-|getMonth()|int - Returns selected month of datepicker in int|
-|getYear()|int - Returns selected year of datepicker in int|
+|getValue()|int - Returns the selected value of numberpicker|
