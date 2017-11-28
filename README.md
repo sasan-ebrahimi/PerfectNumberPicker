@@ -4,7 +4,7 @@ A number picker that is completely customizable ...
 
 # ScreenShot
 
-![](http://s8.picofile.com/file/8312829276/PerfectNumberPicker2.png)
+![](http://s8.picofile.com/file/8312912718/PerfectNumberPicker3.png)
 
 # Usage
 
